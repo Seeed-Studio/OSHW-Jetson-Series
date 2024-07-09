@@ -1,6 +1,7 @@
 # reServer J2032 - Carrier Board for Jetson Xavier NX
 
-copyright ( ) xxx-xxxx [Seeed Studio](https://www.seeedstudio.com/)
+Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
+
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reComputer/reComputerJ2032hardware1.png" style={{width:1200, height:'auto'}}/></div>
 
 ## KeyFeatures

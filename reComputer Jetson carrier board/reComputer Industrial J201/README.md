@@ -1,8 +1,9 @@
 # reComputer Industrial J201 - Carrier Board for Jetson Xavier NX/ Orin Nano/Orin NX
 
-copyright ( ) xxx-xxxx [Seeed Studio](https://www.seeedstudio.com/)
+Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
+
 <div align="center">
-    <img src="https://files.seeedstudio.com/wiki/reComputer-Industrial/4.jpg" style="width:800px;" />
+    <img src="https://files.seeedstudio.com/wiki/reComputer-Industrial/4.jpg" style="width:1000px;" />
 </div>
 
 

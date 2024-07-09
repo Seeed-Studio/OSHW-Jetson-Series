@@ -3,7 +3,7 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img src="https://wdcdn.qpic.cn/MTY4ODg1NTkyNTI4NTE1NA_356376_xs4inuEPMdjVeyj__1679475367?w=1200&h=1335" style="width:700px;" />
+    <img src="https://wdcdn.qpic.cn/MTY4ODg1NTkyNTI4NTE1NA_356376_xs4inuEPMdjVeyj__1679475367?w=1200&h=1335" style="width:800px;" />
 </div>
 
 ## KeyFeatures
