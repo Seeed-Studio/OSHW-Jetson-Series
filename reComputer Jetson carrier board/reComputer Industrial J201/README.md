@@ -3,7 +3,7 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img src="https://files.seeedstudio.com/wiki/reComputer-Industrial/4.jpg" style="width:1000px;" />
+    <img src="https://files.seeedstudio.com/wiki/reComputer-Industrial/4.jpg" style="width:1100px;" />
 </div>
 
 

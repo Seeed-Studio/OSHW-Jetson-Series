@@ -3,7 +3,7 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" style="width:700px;" />
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" style="width:500px;" />
 </div>
 
 

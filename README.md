@@ -2,7 +2,7 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img src="https://files.seeedstudio.com/OSHW_Jetson/Jetson_Platform.png" style="width:900px;" />
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/Jetson_Platform.png" style="width:1000px;" />
 </div>
 
 ## Overview
