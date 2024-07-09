@@ -2,7 +2,7 @@
 
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reComputer/reComputerJ2032hardware1.png" style={{width:800, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reComputer/reComputerJ2032hardware1.png" style={{width:600, height:'auto'}}/></div>
 
 ## KeyFeatures
 - **Rapid network access**: 2.5GbE port x1 (RX: 2.35 Gbits/sec, TX: 1.4 ~ 1.6 Gbits/sec), 1GbE port x1.
