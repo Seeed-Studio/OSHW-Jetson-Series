@@ -3,9 +3,9 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img width={200} 
-     src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" />
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" style="width:400px;" />
 </div>
+
 
 
 ## Overview
@@ -18,8 +18,7 @@ The **reComputer J202** carrier board has nearly the same design and function as
 - **Comprehensive certificates**: FCC, CE, RoHS(Certification received in early Sept)
 - **Flexible [Customization](https://www.seeedstudio.com/odm.html)**: inlcudes changing accessories modules, logo, and hardware interfaces modification based on J202 original design.
 <div align="center">
-    <img width={100} 
-     src="https://files.seeedstudio.com/wiki/reComputer/carrier_board/J202boardspec.png" />
+    <img src="https://files.seeedstudio.com/wiki/reComputer/carrier_board/J202boardspec.png" style="width:400px;" />
 </div>
 
 ## Project structure 

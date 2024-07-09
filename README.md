@@ -1,7 +1,9 @@
 # Open Source Hardware - NVIDIA Jetson Carrier Board
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/OSHW_Jetson/Jetson_Platform.png" style={{width:1200, height:'auto'}}/></div>
+<div align="center">
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/Jetson_Platform.png" style="width:500px;" />
+</div>
 
 ## Overview
 
