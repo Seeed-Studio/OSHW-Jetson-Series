@@ -3,13 +3,9 @@
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
 <div align="center">
-    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" style="width:400px;" />
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J202/fig1.jpg" style="width:800px;" />
 </div>
 
-
-
-## Overview
-The **reComputer J202** carrier board has nearly the same design and function as NVIDIA® Jetson Xavier NX™ carrier board, perfectly works with Jetson Nano/Xavier NX/TX2 NX module, and consists of USB 3.1 ports(4x), M.2 key E for WIFI, M.2 Key M for SSD, RTC, CAN, Raspberry Pi GPIO 40-pin, and so on.
 
 ## KeyFeatures
 - **Perfectly suited**: Design for Jetson Nano/Xavier NX/TX2 NX (260-pin SODIMM).
@@ -18,7 +14,7 @@ The **reComputer J202** carrier board has nearly the same design and function as
 - **Comprehensive certificates**: FCC, CE, RoHS(Certification received in early Sept)
 - **Flexible [Customization](https://www.seeedstudio.com/odm.html)**: inlcudes changing accessories modules, logo, and hardware interfaces modification based on J202 original design.
 <div align="center">
-    <img src="https://files.seeedstudio.com/wiki/reComputer/carrier_board/J202boardspec.png" style="width:400px;" />
+    <img src="https://files.seeedstudio.com/wiki/reComputer/carrier_board/J202boardspec.png" style="width:800px;" />
 </div>
 
 ## Project structure 
@@ -28,7 +24,7 @@ Specifically,
 - the **BRD** and **PDF** files are placed in the each product's **/Layout** subdirectory, 
 - the **DSN** files in the each product's **/Schematic** subdirectory.
 
-
+The design files were preapared in Cadence **Allegro 17.4**.
 
 ## Related Links
 For more information on the carrier board, please refer to the following links:
