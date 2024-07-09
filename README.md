@@ -1,7 +1,7 @@
 # Open Source Hardware - NVIDIA Jetson Baseboard
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/wiki-platform/collection_page/NVIDIA_Jetson_collection_front.jpg" style={{width:1200, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/OSHW_Jetson/Jetson_Platform.png" style={{width:1200, height:'auto'}}/></div>
 
 ## Overview
 
