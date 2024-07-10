@@ -28,7 +28,10 @@ For more information on the carrier board, please refer to the following links:
 - **[Wiki]** [reComputer Industrial Getting Started](https://wiki.seeedstudio.com/reComputer_Industrial_Getting_Started/);
 - **[Wiki]** [reServer Industrial Getting Started](https://wiki.seeedstudio.com/reServer_Industrial_Getting_Started/);
 - **[Wiki]** [reServer J2032 Getting Started](https://wiki.seeedstudio.com/reServer_J2032_Getting_Started/);
-
+- **[Course]** [YOLOv8 on NVIDIA Jetson](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
+- **[Course]** [Custom Local LLM](https://wiki.seeedstudio.com/Finetune_LLM_on_Jetson/)
+- **[Course]** [Local Voice Chatbot](https://wiki.seeedstudio.com/Local_Voice_Chatbot/)
+- **[Course]** [A-LOAM 3D SLAM](https://wiki.seeedstudio.com/a_loam/)
 - **[🛒Buy]** [reComputer industrial J201](https://www.seeedstudio.com/reComputer-Industrial-J2012-p-5685.html);
 - **[🛒Buy]**[reComputer J202](https://www.seeedstudio.com/reComputer-J202-Carrier-Board-for-Jetson-Xavier-NX-p-5397.html);
 - **[🛒Buy]**[reComputer J401](https://www.seeedstudio.com/reComputer-J401-Carrier-Board-for-Jetson-Orin-NX-Orin-Nano-p-5636.html);
