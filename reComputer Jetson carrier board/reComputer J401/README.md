@@ -2,9 +2,11 @@
 
 Copyright (c) [Seeed Studio](https://www.seeedstudio.com/). All rights reserved.
 
+
 <div align="center">
-    <img src="https://wdcdn.qpic.cn/MTY4ODg1NTkyNTI4NTE1NA_356376_xs4inuEPMdjVeyj__1679475367?w=1200&h=1335" style="width:900px;" />
+    <img src="https://files.seeedstudio.com/OSHW_Jetson/reComputer_J401/fig1.jpg" style="width:800px;" />
 </div>
+
 
 ## KeyFeatures
 - **Exceptional Performance Carrier Board**: Support the NVIDIA Jetson Orin NX/Orin Nano module, leveraging powerful computing power to take on tough tasks with ease.
