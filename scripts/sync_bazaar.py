@@ -54,6 +54,18 @@ RES_EXTS = (".pdf", ".stp", ".step", ".stl", ".dxf", ".dwg", ".zip", ".7z", ".ra
 RECOMP = "reComputer Jetson carrier board"
 RESERV = "reServer Jetson carrier board"
 
+# Series-shared documents: archive a single copy under Resources/shared/
+# instead of duplicating into every product's Datasheet/.
+SHARED_DOCS = {
+    "Seeed-Jetson-one-pager.pdf",
+    "Seeed-NVIDIA_Jetson_Catalog_V1.4.pdf",
+    "Seeed_NVIDIA_Jetson_Catalog_in_Robotics_and_Edge_AI.pdf",
+    "NVIDIA-Jetson-Devices-and-carrier-boards-comparision.pdf",
+    "Seeed_NVIDIA_Jetson_Success_Cases_and_Examples.pdf",
+    "seeed_jetson_agx_new_series.pdf",
+    "Seeed_Jetson_AGX_One_Pager.pdf",
+}
+
 # (slug regex, repo dir) — first match wins
 ROUTING = [
     # reComputer series
@@ -276,6 +288,11 @@ def process(pid, slug, sku, repo: pathlib.Path, dry_run: bool):
         u = url.split("?")[0]
         fname = urllib.parse.unquote(u.rstrip("/").split("/")[-1])
         if not fname or "/" in fname:
+            continue
+        if fname in SHARED_DOCS:
+            shared = (repo / "Resources" / "shared")
+            st = "exists" if dry_run else fetch(u, shared / fname)
+            out["docs"].append({"file": f"shared/{fname}", "status": st})
             continue
         sub = (repo / dest) / doc_subdir(fname)
         st = "exists" if dry_run else fetch(u, sub / fname)
