@@ -220,14 +220,27 @@ def scrape(pid: str, slug: str, sku: str):
 # --------------------------------------------------------------------------
 # Download
 # --------------------------------------------------------------------------
+GIT_LIMIT = 100 * 1024 * 1024  # GitHub hard limit per file
+
+
 def fetch(url: str, dest: pathlib.Path, timeout: int = 240):
+    gz_dest = pathlib.Path(str(dest) + ".gz")
     if dest.exists() and dest.stat().st_size > 0:
         return "exists"
+    if gz_dest.exists() and gz_dest.stat().st_size > 0:
+        return "exists"  # previously stored compressed
     dest.parent.mkdir(parents=True, exist_ok=True)
     try:
         r = subprocess.run(["curl", "-sSL", "--fail", "--max-time", str(timeout), "-A", "Mozilla/5.0",
                             "-o", str(dest), url], capture_output=True, text=True, timeout=timeout + 20)
         if r.returncode == 0 and dest.exists() and dest.stat().st_size > 0:
+            if dest.stat().st_size > GIT_LIMIT:
+                gz = subprocess.run(["gzip", "-9", "-c", str(dest)], capture_output=True)
+                if gz.returncode == 0 and len(gz.stdout) > 0:
+                    gz_dest.write_bytes(gz.stdout)
+                    dest.unlink()
+                    return "ok(gz)"
+                return f"fail(gzip)"
             return "ok"
         return f"fail({r.returncode})"
     except Exception as e:
