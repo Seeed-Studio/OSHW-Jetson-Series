@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local tooling & downloaded resources (not part of the OSHW deliverables)
+Resources/
+scripts/
